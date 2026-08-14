@@ -1,0 +1,98 @@
+[ 
+    { 
+        "id": "1", 
+        "tipo": "cachorro", 
+        "raca": "Labrador", 
+        "caracteristicas": "Brincalhão e amigável" 
+    }, 
+    { 
+        "id": "2", 
+        "tipo": "gato", 
+        "raca": "Siamês",
+        "caracteristicas": "Calmo e carinhoso" 
+    },    
+    { 
+        "id": "3", 
+        "tipo": "cachorro", 
+        "raca": "Golden Retriever", 
+        "caracteristicas": "Dócil, inteligente e brincalhão" 
+    }, 
+    { 
+        "id": "4", 
+        "tipo": "gato", 
+        "raca": "Persa", 
+        "caracteristicas": "Tranquilo, carinhoso e independente" 
+    }, 
+    { 
+        "id": "5", 
+        "tipo": "cachorro", 
+        "raca": "Poodle", 
+        "caracteristicas": "Inteligente, ativo e companheiro" 
+    }, 
+    { 
+        "id": "6", 
+        "tipo": "gato", 
+        "raca": "Maine Coon", 
+        "caracteristicas": "Grande, amigável e sociável" 
+    }, 
+    { 
+        "id": "7", 
+        "tipo": "cachorro", 
+        "raca": "Bulldog Francês", 
+        "caracteristicas": "Carinhoso, tranquilo e divertido" 
+    }, 
+    { 
+        "id": "8", 
+        "tipo": "gato", 
+        "raca": "Bengal", 
+        "caracteristicas": "Ativo, curioso e brincalhão" 
+    }, 
+    { 
+        "id": "9", 
+        "tipo": "cachorro", 
+        "raca": "Husky Siberiano", 
+        "caracteristicas": "Energético, independente e amigável" 
+    }, 
+    { 
+        "id": "10", 
+        "tipo": "gato", 
+        "raca": "Ragdoll", 
+        "caracteristicas": "Calmo, dócil e muito carinhoso" 
+    }, 
+    { 
+        "id": "11", 
+        "tipo": "cachorro", 
+        "raca": "Pastor Alemão", 
+        "caracteristicas": "Leal, inteligente e protetor" 
+    }, 
+    { 
+        "id": "12", 
+        "tipo": "gato", 
+        "raca": "Angorá", 
+        "caracteristicas": "Elegante, ativo e afetuoso" 
+    }, 
+    { 
+        "id": "13", 
+        "tipo": "cachorro", 
+        "raca": "Beagle", 
+        "caracteristicas": "Curioso, alegre e brincalhão" 
+    }, 
+    { 
+        "id": "14", 
+        "tipo": "gato", 
+        "raca": "Sphynx", 
+        "caracteristicas": "Sociável, curioso e carinhoso" 
+    }, 
+    { 
+        "id": "15", 
+        "tipo": "cachorro", 
+        "raca": "Shih Tzu", 
+        "caracteristicas": "Dócil, companheiro e tranquilo" 
+    }, 
+    { 
+        "id": "16", 
+        "tipo": "gato", 
+        "raca": "British Shorthair", 
+        "caracteristicas": "Calmo, independente e amigável" 
+    } 
+] 
