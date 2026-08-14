@@ -9,17 +9,16 @@ const ARQUIVO = path.join(__dirname, "..", "animais.json");
 app.use(cors());
 app.use(express.json());
 
+let animais = JSON.parse(
+    fs.readFileSync(ARQUIVO, "utf8")
+);
+
 function lerAnimais() {
-    const dados = fs.readFileSync(ARQUIVO, "utf8");
-    return JSON.parse(dados);
+    return animais;
 }
 
-function salvarAnimais(animais) {
-    fs.writeFileSync(
-        ARQUIVO,
-        JSON.stringify(animais, null, 4),
-        "utf8"
-    );
+function salvarAnimais(novosAnimais) {
+    animais = novosAnimais;
 }
 
 app.get("/animais", (req, res) => {
