@@ -1,10 +1,10 @@
 const express = require("express");
 const fs = require("fs");
 const cors = require("cors");
+const path = require("path");
 
 const app = express();
-const PORT = 3000;
-const ARQUIVO = "./animais.json";
+const ARQUIVO = path.join(__dirname, "..", "animais.json");
 
 app.use(cors());
 app.use(express.json());
@@ -178,6 +178,4 @@ app.delete("/animais/:id", (req, res) => {
     });
 });
 
-app.listen(PORT, () => {
-    console.log(`Servidor rodando em http://localhost:${PORT}`);
-});
+module.exports = app;
